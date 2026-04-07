@@ -1,0 +1,21 @@
+name: full-analysis
+description: Performs a deterministic, end-to-end repository analysis from summarization to execution planning.
+steps:
+  - name: summarize
+    skill: repo-summarizer
+    description: Analyzes the project structure and stack.
+  - name: audit
+    skill: architecture-auditor
+    depends_on: summarize
+    description: Evaluates system design and modularity.
+  - name: risks
+    skill: risk-detector
+    depends_on: audit
+    description: Identifies security and logic risks.
+  - name: plan
+    skill: execution-planner
+    depends_on: risks
+    description: Creates a prioritized roadmap and issues based on analysis.
+  - name: score
+    description: Calculates and outputs the final REPO ANALYSIS REPORT and Code Maturity Score.
+    depends_on: plan

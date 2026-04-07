@@ -1,0 +1,13 @@
+name: repo-analyzer
+description: Analyze repository structure and metrics
+
+input_schema:
+  type: object
+  properties:
+    path:
+      type: string
+      description: Path to repository
+  required:
+    - path
+
+

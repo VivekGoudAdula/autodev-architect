@@ -1,0 +1,27 @@
+spec_version: "0.1.0"
+name: autodev-architect
+version: "0.1.0"
+description: "AI agent that analyzes repositories and produces engineering decisions backed by data"
+
+model:
+  preferred: claude-sonnet-4-5-20250929
+
+skills:
+  - repo-summarizer
+  - architecture-auditor
+  - risk-detector
+  - execution-planner
+  - auto-refactor
+
+tools:
+  - file-reader
+  - repo-analyzer
+
+tags:
+  - system-design
+  - architecture-analysis
+  - devtools
+  - static-analysis
+  - decision-engine
+
+

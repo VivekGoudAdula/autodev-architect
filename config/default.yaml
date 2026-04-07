@@ -1,0 +1,32 @@
+# Default Configuration
+
+## System Settings
+- **Project Name**: AutoDev Architect
+- **Environment**: Development
+- **Log Level**: info
+
+## Multi-Agent Orchestration
+- **Active Agents**:
+  - `architecture-agent`
+  - `risk-agent`
+  - `planning-agent`
+  - `refactor-agent`
+
+## Orchestrator Logic
+- **Supervision**: `human-in-the-loop`
+- **Output Channel**: `stdout`
+- **Error Handling**: `retry`
+
+## Tooling
+- **Default Tool**: `file-reader`
+- **Capability Check**: `true`
+
+## Knowledge Base
+- **Knowledge Sources**:
+  - `knowledge/best-practices.md`
+  - `knowledge/architecture-patterns.md`
+  - `knowledge/security-guidelines.md`
+
+## Memory Management
+- **Persistence**: `true`
+- **Context Storage**: `memory/context.md`
