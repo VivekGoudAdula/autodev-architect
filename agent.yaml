@@ -18,6 +18,10 @@ tools:
   - file-reader
   - repo-analyzer
 
+workflows:
+  - full-analysis
+
+
 tags:
   - system-design
   - architecture-analysis
