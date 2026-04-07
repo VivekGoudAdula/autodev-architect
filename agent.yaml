@@ -32,13 +32,6 @@ tags:
   - static-analysis
   - decision-engine
 
-runtime:
-  max_turns: 50
-  timeout: 300
-
-hooks:
-  bootstrap: /workflow:full-analysis
-
 
 
 

@@ -10,8 +10,7 @@ input_schema:
   required:
     - path
 
-runtime:
-  command: "node tools/repo-analyzer.js [path]"
+# No runtime command allowed in strict v0.1.0 validation
 
 
 
