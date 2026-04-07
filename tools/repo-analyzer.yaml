@@ -10,4 +10,8 @@ input_schema:
   required:
     - path
 
+runtime:
+  command: "node tools/repo-analyzer.js [path]"
+
+
 
