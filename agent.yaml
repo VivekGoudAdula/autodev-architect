@@ -4,7 +4,8 @@ version: "0.1.0"
 description: "AI agent that analyzes repositories and produces engineering decisions backed by data"
 
 model:
-  preferred: anthropic:claude-3-sonnet-20240229
+  preferred: anthropic:claude-3-5-sonnet-20240620
+
 
 
 
